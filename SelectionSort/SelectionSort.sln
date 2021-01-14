@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SelectionSort", "SelectionSort\SelectionSort.pyproj", "{8790941B-19DC-4B8C-BAA3-092D10A52CEE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Deykstry", "..\Deykstry\Deykstry\Deykstry.pyproj", "{DA18C9B3-5271-4ED9-B1AF-E75868B41EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8790941B-19DC-4B8C-BAA3-092D10A52CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8790941B-19DC-4B8C-BAA3-092D10A52CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA18C9B3-5271-4ED9-B1AF-E75868B41EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA18C9B3-5271-4ED9-B1AF-E75868B41EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {249DBAD0-4F8E-4776-A64B-A5129DE642B5}
+	EndGlobalSection
+EndGlobal
