@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_Lists", "Python_Lists.pyproj", "{E0BB0B7C-0DE6-483F-AEA9-9A46C745C92B}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python_tuple", "..\Python_tuple\Python_tuple.pyproj", "{B92D8A0D-7BCF-4F7E-AFD1-5091221D49FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E0BB0B7C-0DE6-483F-AEA9-9A46C745C92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0BB0B7C-0DE6-483F-AEA9-9A46C745C92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92D8A0D-7BCF-4F7E-AFD1-5091221D49FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92D8A0D-7BCF-4F7E-AFD1-5091221D49FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
