@@ -9,3 +9,17 @@ print(weekdays) #вивід модифікованого списку
 
 print(weekdays[0::2]) #вивід преших трьох елементів списку
 print(weekdays[::-1]) #вивід список задом на перед
+
+weekdays.append('Zippo') #додаю один елемент в кінець списку
+print(weekdays) #вивід модифікованого списку
+
+weekend = ['Saturday','Sunday']
+
+weekdays += weekend
+print(weekdays) #вивід модифікованого списку
+
+weekdays.insert(3, 'Three') #додаю один елемент в 3-тю позицію списку
+print(weekdays) #вивід модифікованого списку
+
+del weekdays[3] #видаляю 3-й елемент зі списку (del - це оператор пітон, а не матод класу list)
+print(weekdays) #вивід модифікованого списку
