@@ -34,3 +34,5 @@ print(weekdays.count('Saturday')) #перевірка к-ті включень '
 
 weekdays.sort() #сортую список
 print(weekdays) # вивід модифікованого списку
+
+print(len(weekdays)) #друкую довжину списку
