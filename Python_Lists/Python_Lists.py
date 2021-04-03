@@ -36,3 +36,36 @@ weekdays.sort() #сортую список
 print(weekdays) # вивід модифікованого списку
 
 print(len(weekdays)) #друкую довжину списку
+
+# робота зі списками списків.
+
+def get_average_value(list_data):
+    
+    if list_data[len(list_data) % 2] > 0:
+        return list_data[(len(list_data) // 2)]
+    elif list_data[len(list_data) % 2] == 0:
+         return list_data[(len(list_data) // 2) + 1]
+
+def get_average_index(list_data):
+    return len((list_data) // 2)
+
+plots = list()
+voltages = list()
+currents = list()
+
+plots = [voltages, currents]
+print(plots) # emty
+
+voltages = [1.45, 1.445, 1.98, 1.34, 1.0001, 1.00009, 1.0]
+currents = [2.54, 2.64, 2.12, 2.34, 2.99]
+plots = [voltages, currents]
+print(plots)
+
+voltages.sort()
+currents.sort()
+print(plots)
+current = get_average_value(currents)
+voltage = get_average_value(voltages)
+
+print("Current: %.3f" % current, "A")
+print("Voltage: %.3f" % voltage, "V")
