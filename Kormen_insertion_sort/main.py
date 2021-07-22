@@ -1,16 +1,12 @@
-# This is a sample Python script.
+input_data = [23, 43, 22, 1, 2, 7, 8, 0, 98, 1999]
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+for j in range(2, len(input_data)):
+    key = input_data[j]
+    i = j - 1
+    while i >= 0 and input_data[i] > key:
+        input_data[i + 1] = input_data[i]
+        i = i - 1
+    input_data[i + 1] = key
+print(input_data)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
